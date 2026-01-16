@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(15, 255, 255), rgb(25, 171, 228), rgb(15, 255, 255));
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: aquamarine;
+    color: tomato;
+    font-size: 8vmin;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.new, .reset {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: chartreuse;
+    color: cornsilk;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.msg-container {
+    height: 80vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.msg {
+    color: lawngreen;
+    font-size: 8vmin;
+    margin: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.sign {
+    color: teal;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
